@@ -1,0 +1,101 @@
+mat-card {
+  display: flex;
+  height: 200px;
+  padding: 24px 0 0 24px;
+  width: 395px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.mat-card-title {
+  font-size: 20px;
+  line-height: 24px;
+  width: 100%;
+  white-space: pre-wrap;
+  color: #001F3D;
+  margin-top: 10px;
+}
+
+.mat-card-content {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.left-card-side {
+  height: 100%;
+  width: 40%;
+  position: relative;
+}
+
+.right-card-side {
+  width: 60%;
+  height: 100%;
+  white-space: pre-wrap;
+}
+
+.star-container img {
+  margin-right: 8px;
+}
+
+.reviews-text {
+  font-size: 9px;
+  line-height: 14px;
+  color: #3C738D;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 120px;
+  top: 110px;
+}
+
+ul li:first-child {
+  transform: translate(-50%, -40%);
+}
+
+li {
+  position: absolute;
+  -webkit-transition: all 2s linear;
+  -moz-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.location-pin {
+  margin-right: 6px;
+}
+
+.location-container {
+  font-size: 9px;
+  line-height: 14px;
+  color: #001F3D;
+}
+
+.edit-pencil {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+}
+
+.verify-sign {
+  margin-left: 10px;
+}
+
+.photo-edit-pencil {
+  background-color: #4C547B;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

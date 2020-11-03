@@ -1,0 +1,39 @@
+<mat-card>
+  <img src="assets/images/edit_pensil_card.png" class="edit-pencil">
+
+  <div class="left-card-side">
+    <ul>
+      <li>
+        <img src="./assets/images/Ellipse%2076.png" alt="user img">
+        <div class="photo-edit-pencil">
+          <img src="./assets/images/edit-pencil.png">
+        </div>
+      </li>
+      <li #flagsImages *ngFor="let flag of flagsArray">
+        <img [src]="flag.flagImgUrl" alt="{{flag.country}}"/>
+      </li>
+    </ul>
+  </div>
+
+  <div class="right-card-side">
+    <p class="mat-card-title">Christofer Carder
+      <img src="assets/images/verified-sign.png" class="verify-sign"/>
+      Junior</p>
+    <div class="star-container">
+      <img src="./assets/images/full-star.png">
+      <img src="./assets/images/full-star.png">
+      <img src="./assets/images/full-star.png">
+      <img src="./assets/images/full-star.png">
+      <img src="./assets/images/half-star.png">
+
+      <span class="reviews-text">234 Reviews</span>
+    </div>
+    <p class="mat-card-content">
+      UI\UX Designer, Web Designer, Mobile App Designer, UI\UX Designer, Web Designer, Mobile App Designer
+    </p>
+    <div class="location-container">
+      <img src="assets/images/location-pin.png" class="location-pin">
+      Lviv, Ukraine
+    </div>
+  </div>
+</mat-card>
